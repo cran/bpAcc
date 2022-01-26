@@ -1,0 +1,42 @@
+# These functions are
+# Copyright (C) 2014-2021 T. Chandel, V. Miranda, A Lowe, Tet-Chuan - Auckland University of Technology 
+# All rights reserved.
+
+
+# Version 0.0-1 (October 2021)
+# Version 0.0-1 
+
+###
+### Methods imported 
+###
+importFrom("graphics", "abline", "plot.new", "points", "polygon", "text")
+importMethodsFrom("stats")
+importMethodsFrom("methods")
+importFrom("methods", "new")
+importFrom("stats", "rnorm")
+importFrom("methods", "show")
+# importFronm("base", "gamma")  # NOT REQUIRED.
+importFrom("stats", "lsfit", "cov", "toeplitz", 
+           "terms", "var", "sd",
+           "dnorm", "dgamma", "dweibull",
+           "pgamma", "pbeta", "pweibull",
+           "qbeta", "qgamma", "qweibull", 
+           "rbeta", "rgamma", "rweibull", 
+           "dchisq", "pchisq", "qchisq",
+           "rchisq") 
+importFrom("stats", uniroot, integrate, pnorm)
+export(fsup1, fsup2)
+export(root, rootinv)
+export(ProbAccept)
+export(innerIntegral3)
+export(ProbTolError)
+export(toint)
+export(psigmaami)
+exportClasses(ProbAcceptance)
+exportMethods(plot, show)
+#exportMethods("test", plot)
+#export("test")
+#export(toint)
+### INFORMATIVE
+#export( .onAttach )
+#export(vgamextraNEWS)
