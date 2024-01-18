@@ -48,7 +48,8 @@ ProbAccept <- function(n, mu, sd, ptolerror = 0.85,
   if ( (ptolerror <=0 ) || (ptolerror >=1))
     stop("Wrong input for 'ptolerror'.")
   
-  exProb <- integrate(innerIntegral3, lower = 0.0000, upper = root(0),
+  exProb <- integrate(innerIntegral3, lower = 0.0000, 
+                      upper = root(0, ptolerror = ptolerror),
             mu = mu, std.dev= sd, n = n, ptolerror = ptolerror)$value
   
   
@@ -116,7 +117,8 @@ ProbAccept <- function(n, mu, sd, ptolerror = 0.85,
     message("\n 
                      --- Exact results ---
             \n
-            The exact probability of accepting the device is ", exProb, 
+            The exact probability of accepting the device is ", 
+            round(exProb, 3), 
             ".
             \n")
   #  cat("           --- Exact results ---")

@@ -1,10 +1,14 @@
-55fe8647ce142b55b26fd1a0a8054748 *DESCRIPTION
-d852f04e57bff36ee2d11be6d082fc23 *NAMESPACE
+0b3d2366062ef7aa90423c693bb764aa *DESCRIPTION
+50ab2cba44454c59451e38cfcf836ef3 *NAMESPACE
 5bc48f47e4f4872979d3113b9308d578 *NEWS
-cec2d025beab9dbf650336bea9c19b34 *R/MethodsProbAccept.R
+8c6ad44129608f072a2f8af1f3fa9286 *R/AcceptR.R
+e7a2a68d859a93378173435f3f528279 *R/MethodsProbAccept.R
+5860434a6a94215dc0f72119527d51b7 *R/PAccept.R
 106a5b242bea869aa06bec0fe9c5befa *R/probaccept.R
 6c94508b018d0599871a57c1d933cd4e *R/psigmaami.R
+3da1845128e4832ccaa5ba23b7c52de5 *man/PAcceptance.Rd
 9a8bc345c316d1cba13822d24fe5c371 *man/Supfunctions.Rd
+8525395bd2e104e53068d5d14c885c83 *man/acceptregion.Rd
 352133ca622ff59e4d6771e8c6bffa3a *man/documented-methodsAAMIsp10.Rd
 c0db53707d478514f0c1f6800d26d8a9 *man/notDocumentedYetAAMIsp10.Rd
 2272141f9e86ca63f7dcb39e228e5bac *man/probaccept.Rd

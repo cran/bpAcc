@@ -17,7 +17,7 @@ importFrom("stats", "rnorm")
 importFrom("methods", "show")
 # importFronm("base", "gamma")  # NOT REQUIRED.
 importFrom("stats", "lsfit", "cov", "toeplitz", 
-           "terms", "var", "sd",
+           "terms", "var", "sd","pnorm",
            "dnorm", "dgamma", "dweibull",
            "pgamma", "pbeta", "pweibull",
            "qbeta", "qgamma", "qweibull", 
@@ -30,6 +30,8 @@ export(root, rootinv)
 export(ProbAccept)
 export(innerIntegral3)
 export(ProbTolError)
+export(AcceptR)
+export(PAccept)
 export(toint)
 export(psigmaami)
 exportClasses(ProbAcceptance)
